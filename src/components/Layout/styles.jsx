@@ -50,6 +50,12 @@ export const ContentCharacters = styled.div`
         &:hover {
             filter: brightness(0.8);
         }
+        @media screen and (max-width: 475px) {
+            line-height: 5rem;
+            width: 20rem;
+            font-size: 1.6rem;
+            margin-top: 3rem;
+        }
     }
 `
 
